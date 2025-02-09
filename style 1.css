@@ -232,7 +232,7 @@ aside{
   background-color:#161616;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
   
 
   
@@ -243,13 +243,17 @@ aside{
   font-weight: 700;
 }
 
+.mid{
+  display: flex;
+  
+}
+
 .footer-mid{
 
   min-height: 630px;
   width:489.2px;
   border-left: 1px solid white;
   border-bottom: 1px solid white;
-  display: column;
   position: relative;
   bottom: 15px;
 }
@@ -292,35 +296,3 @@ footer{
   
 }
   
-@media only screen and (max-width: 550px) {
-   html{
-    width: 120%;
-  }
-  aside{
-    display: flex;
-    justify-content: space-between;
-  }
-  span{
-    line-height: 15px;
-  }
-  .main-body{
-    display: flex;
-    flex-wrap:wrap;
-  }
-  .body{
-    width: 30%;
-  }
-  .body-img{
-    background-size: 100% 100%;
-  }
-  
-  
-  
-}
-
-@media screen and (min-width:420px) {
-  
-  .txt-2{
-    display: none;
-  }
-}
