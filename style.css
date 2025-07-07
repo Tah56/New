@@ -5,12 +5,26 @@
     background-color:#0e0e0e;
 }
 
+body{
+    height: 100vh;
+    width: 75%;
+    border: 1px solid white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
 .main .nav{
     height: 100px;
-    width: 100%;
+    width: 80%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     color: aliceblue;
     font-size: 40px;
     margin-left: 10px;
@@ -53,7 +67,9 @@
     max-width: 986px;
     height: 420px;
    position: absolute;
-   left: 20%;
+   left: 50%;
+   top: 35%;
+   transform: translate(-50%,-50%);
 }
 .img img{
     display:flex ;
@@ -61,7 +77,11 @@
     align-items: center;
     width: 986px;
     height: 310px;
-    background-position: 100% 100% ;
+    border: 1px solid white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    /* background-position: 100% 100% ; */
+    object-fit: 100%,100%;
    
 }
 
